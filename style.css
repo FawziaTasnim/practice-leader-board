@@ -1,0 +1,117 @@
+/* Header Style */
+
+header{
+    background-color: #562EFF;
+    width: 100%;
+    height: 94px;
+}
+.buttons{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+.main-nav, .nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 40px;
+    height: 51px;
+    padding-top: 22px;
+    padding-left: 350px;
+}
+.profile{
+    padding-top: 23px;
+    padding-right: 350px;
+}
+.idea{
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.right-nav{
+    padding-top: 36px;
+    padding-right: 10px;
+}
+/* Second Part Style */
+
+body{
+    background-color: #9F9F9F;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.player-img{
+    width: 56px;
+    height: 56px;
+}
+.small-box{
+    width: 820px;
+    height: 679px;
+    background-color: white;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 0;
+    border-radius: 5px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 30px;
+
+}
+.box-name{
+    color: #562EFF;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.group1{
+    padding-left: 45px;
+}
+.group2{
+    padding-left: 80px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    width: 750px;
+}
+
+/* Blog Style */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 30px;
+    
+
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog{
+    display: flex;
+    padding-bottom: 10px;
+}
+.blog-name{
+    color: #562EFF;
+    padding-left: 30px;
+}
+.by{
+    color: #9F9F9F;
+}
+p{
+    color: #562EFF;
+}
+
+/* Course Style */
+
+.smaller-box{
+    width: 820px;
+    height: 362px;
+    background-color: white;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
