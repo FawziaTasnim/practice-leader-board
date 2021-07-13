@@ -162,12 +162,25 @@ p{
     height: 11px;
 }
 /* Media */
-
-@media screen (max-width:700px){
-    main{
-       display:flex;
-       flex-direction:colomn;
+@media only screen and (max-width:700px) {
+    .small-box, .smaller-box{
+        height: auto;
+        margin-left: 50px;
+    
     }
-     
+    .players, .blogs, .courses{
+        display: block;
+    }
+    .nav-items{
+        background-color: #562EFF;
+    }
+    .main-nav{
+        width: 100%;
+        justify-content: space-between;
+    }
+    head{
+        padding-left: 100px;
+    }
+    
     
 }
