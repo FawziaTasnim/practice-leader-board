@@ -103,15 +103,71 @@ hr{
 p{
     color: #562EFF;
 }
+.bdetails{
+    padding-left: 10px;
+}
 
 /* Course Style */
 
 .smaller-box{
     width: 820px;
-    height: 362px;
+    height: 350px;
     background-color: white;
     align-items: center;
     margin-left: 350px;
     margin-top: 20px;
     border-radius: 5px;
+    margin-bottom: 20px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 35px;
+    
+}
+.courses img{
+    width: 224px;
+    height: 104px;
+
+}
+.course-details{
+    display: flex;
+}
+.course-title{
+    color: #562EFF;
+    padding-left: 33px;
+    padding-top: 25px;
+
+}
+.author-name{
+    color:  #ED6B4F;
+    font-size: 15px;
+}
+.fa-clock, .time{
+    color: #FF4A60;
+    font-weight: 600;
+    font-size: 15px;
+    background-color:#fde5e8;
+    padding: 2px;
+    border-radius: 10px;
+}
+.time{
+    margin-left: 30px;
+}
+.star{
+    color: #FFC014;
+}
+.fa-star{
+    width: 13px;
+    height: 11px;
+}
+/* Media */
+
+@media screen (max-width:700px){
+    main{
+       display:flex;
+       flex-direction:colomn;
+    }
+     
+    
 }
